@@ -7,6 +7,8 @@ static const Block blocks[] = {
 	{"", "blk-backlight", 0, 2},
 	{"", "blk-layout", 0, 3},
 	{"", "blk-cputemp", 5, 0},
+	{"", "blk-cpupercent", 5, 0},
+	{"", "blk-memory", 5, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
