@@ -3,6 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"  ", "date '+%b %e %a %R  '", 60, 0},
 	{"", "blk-battery", 5, 0},
+	{"", "blk-wifi", 1, 0},
 	{"", "blk-volume", 0, 1},
 	{"", "blk-backlight", 0, 2},
 	{"", "blk-layout", 0, 3},
