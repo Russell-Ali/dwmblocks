@@ -8,6 +8,7 @@ static const Block blocks[] = {
 	{"", "blk-volume", 0, 1},
 	{"", "blk-backlight", 0, 2},
 	{"", "blk-layout", 0, 3},
+	{"", "blk-update", 60, 0},
 	{"", "blk-traffic", 5, 0},
 	{"", "blk-cpu", 5, 0},
 	{"", "blk-memory", 5, 0},
